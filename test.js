@@ -9,7 +9,6 @@ superagent
     } else {
       console.log("Post response = ", res.status)
       console.log(res.body);
-      console.log(res.body);
       accessToken = res.body.access_token;
       console.log("access token : " + accessToken);
     }
